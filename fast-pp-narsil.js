@@ -65,7 +65,7 @@ user_pref("widget.gtk.overlay-scrollbars.enabled", false);
 
 
 user_pref("extensions.pocket.enabled", false);
-user_pref("extensions.screenshots.disabled", true);
+user_pref("extensions.screenshots.disabled", false);
 user_pref("identity.fxaccounts.enabled", false);
 // user_pref("reader.parse-on-load.enabled", false); // Reader View ????
 user_pref("browser.tabs.firefox-view", false);
