@@ -1,4 +1,4 @@
-// this user.js is a combination of betterfox fastfox.js (last update d4f1744 2024-03-13) and narsil.js (last update 2024-02-05 a03c496e33)
+// this user.js is a combination of betterfox fastfox.js (last update c5fca2d 2024-07-16) and narsil.js (last update 2024-02-05 a03c496e33)
 
 // fastfox.js of course i know what all this shit do!
 
@@ -16,14 +16,13 @@ user_pref("network.http.max-persistent-connections-per-server", 10); // default=
 user_pref("network.http.max-urgent-start-excessive-connections-per-host", 5); // default=3
 user_pref("network.http.pacing.requests.enabled", false);
 user_pref("network.dnsCacheExpiration", 3600); // keep entries for 1 hour
-user_pref("network.dns.max_high_priority_threads", 8); // default=5
 user_pref("network.ssl_tokens_cache_capacity", 10240); // default=2048; more TLS token caching (fast reconnects)
 user_pref("network.dns.disablePrefetch", true);
+user_pref("network.dns.disablePrefetchFromHTTPS", true); // [FF127+ false]
 user_pref("network.prefetch-next", false);
 user_pref("network.predictor.enabled", false);
 user_pref("layout.css.grid-template-masonry-value.enabled", true);
 user_pref("dom.enable_web_task_scheduling", true);
-user_pref("layout.css.has-selector.enabled", true);
 user_pref("dom.security.sanitizer.enabled", true);
 
 // this is from https://wiki.archlinux.org/title/Firefox/Tweaks#Change_Performance_settings
