@@ -1,4 +1,13 @@
-// this user.js is a combination of betterfox fastfox.js (last update c5fca2d 2024-07-16) and narsil.js (last update 2024-02-05 a03c496e33)
+// this user.js is a combination of betterfox fastfox.js 
+// commits history 
+// d4f1744 2024-03-13
+// c5fca2d 2024-07-16
+
+// and narsil.js
+// commits history
+// a03c496e33 2024-02-05
+// 2ac199db09 2024-06-14
+// bbbc72751e 2024-07-24
 
 // fastfox.js of course i know what all this shit do!
 
@@ -43,9 +52,11 @@ user_pref("browser.aboutwelcome.enabled", false);
 user_pref("browser.discovery.enabled", false);
 user_pref("browser.ctrlTab.sortByRecentlyUsed", false);
 user_pref("browser.download.always_ask_before_handling_new_types", true);
+user_pref("browser.messaging-system.whatsNewPanel.enabled", false);
 user_pref("apz.autoscroll.enabled", true);
 user_pref("general.autoScroll", true);
 user_pref("general.smoothScroll", true);
+user_pref("full-screen-api.warning.delay", 0);
 user_pref("full-screen-api.warning.timeout", 0);
 user_pref("mousewheel.min_line_scroll_amount", 40);
 user_pref("general.smoothScroll.pages", false);
@@ -76,8 +87,8 @@ user_pref("media.hardware-video-decoding.force-enabled", true);
 
 /// CHECK ALL THIS
 
-user_pref("browser.newtabpage.activity-stream.showSponsored", false);
-user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
+user_pref("browser.newtabpage.activity-stream.showSponsored", false); // [FF58+]
+user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false); // [FF83+] Shortcuts>Sponsored shortcuts
 
 user_pref("browser.startup.homepage_override.mstone", "ignore");
 user_pref("startup.homepage_welcome_url", "");
@@ -126,18 +137,20 @@ user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("toolkit.telemetry.bhrPing.enabled", false);
 user_pref("toolkit.telemetry.firstShutdownPing.enabled", false);
+user_pref("browser.search.serpEventTelemetry.enabled",false);
 user_pref("corroborator.enabled", false);
 user_pref("toolkit.telemetry.coverage.opt-out", true);
 user_pref("toolkit.coverage.opt-out", true);
 user_pref("toolkit.coverage.endpoint.base", "");
-user_pref("browser.ping-centre.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.telemetry", false);
 user_pref("media.webvtt.debug.logging", false);
 user_pref("media.webvtt.testing.events", false);
 user_pref("browser.contentblocking.database.enabled", false);
 user_pref("browser.contentblocking.cfr-milestone.enabled", false);
+user_pref("browser.ping-centre.telemetry", false);
 user_pref("default-browser-agent.enabled", false);
+
 
 // STUDIES
 
@@ -270,8 +283,10 @@ user_pref("browser.urlbar.addons.featureGate", false);
 user_pref("browser.urlbar.mdn.featureGate", false);
 user_pref("browser.urlbar.pocket.featureGate", false);
 user_pref("browser.urlbar.weather.featureGate", false);
+user_pref("browser.urlbar.yelp.featureGate", false); // [FF124+] [DEFAULT: false]
 user_pref("browser.formfill.enable", false);
 user_pref("browser.urlbar.suggest.engines", false);
+user_pref("browser.urlbar.clipboard.featureGate", false);
 user_pref("layout.css.visited_links_enabled", false);
 user_pref("browser.search.separatePrivateDefault", true);
 user_pref("browser.search.separatePrivateDefault.ui.enabled", true);
@@ -407,6 +422,7 @@ user_pref("privacy.resistFingerprinting", true);
 // user_pref("privacy.window.maxInnerHeight", 900); ??
 
 user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
+user_pref("privacy.spoof_english", 2);
 // user_pref("browser.display.use_system_colors", false); ???????????
 
 user_pref("widget.non-native-theme.enabled", true);
@@ -420,6 +436,7 @@ user_pref("extensions.formautofill.creditCards.enabled", false);
 
 user_pref("security.sandbox.gpu.level", 1);
 user_pref("fission.autostart", true);
+user_pref("signon.firefoxRelay.feature", "disabled");
 user_pref("gfx.webrender.all", true);
 
 user_pref("app.update.auto", false);
