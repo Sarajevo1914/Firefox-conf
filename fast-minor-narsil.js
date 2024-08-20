@@ -54,6 +54,7 @@ user_pref("mousewheel.min_line_scroll_amount", 40);
 user_pref("general.smoothScroll.pages", false);
 user_pref("general.autoScroll", true);
 user_pref("widget.gtk.overlay-scrollbars.enabled", false);
+user_pref("browser.tabs.tabmanager.enabled", false);
 
 
 user_pref("extensions.pocket.enabled", false);
