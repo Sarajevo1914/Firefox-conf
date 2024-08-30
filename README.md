@@ -70,7 +70,7 @@ I leave the files in this repo for you, maybe you are a genius and can help me!!
 
 ## Firefox UI Fix little install guide
 
-It's simple, go to the profile root directory, then clone the repo (select the branch you like) in a directory named chrome, copy the user.js from chrome to the root directory, easy.
+to install go to the profile root directory usually in `~/.mozila/firefox/xxxx.profilename`, then clone the repo selecting which branch you want into a directory named chrome (that is what the commands bellow do), now copy chrome/user.js file to the root directory or copy all the content into your user.js if you already have some setting there.
 Why i explain this? Because the doc is a mess not really easy to read (or maybe I'm fucking dumb idk) and of course check the wiki for more info.
 
 ```sh
