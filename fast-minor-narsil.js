@@ -1,4 +1,5 @@
-// this file is fastfox and a few from narsil user.js // why this and not the other file?? well my ff-nightly and ff performance with both combided is shit
+// this file is fastfox and a few from narsil user.js
+// why this and not the other file?? well my ff-nightly and ff performance with both combided is shit
 // this file is not smooth as fastfox only but i need some other minor config for better security and not be naked on the web
 
 // fastfox.js of course i know what all this shit do!
@@ -211,3 +212,20 @@ user_pref("browser.region.update.enabled", false);
 
 user_pref("privacy.resistFingerprinting", true);
 user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
+
+// PASSWORDS
+
+user_pref("signon.rememberSignons", false);
+user_pref("signon.generation.enabled", false);
+user_pref("signon.management.page.breach-alerts.enabled", false);
+user_pref("signon.management.page.breachAlertUrl", "");
+user_pref("signon.autofillForms", false);
+user_pref("signon.formlessCapture.enabled", false);
+user_pref("network.auth.subresource-http-auth-allow", 1);
+
+// DOWNLOADS
+
+user_pref("browser.download.useDownloadDir", false);
+user_pref("browser.download.alwaysOpenPanel", false);
+user_pref("browser.download.manager.addToRecentDocs", false);
+user_pref("browser.download.always_ask_before_handling_new_types", true);
