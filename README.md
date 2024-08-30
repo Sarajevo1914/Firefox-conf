@@ -50,9 +50,6 @@ I don't use a lot of addons only the necessary
 
 - [Matte Black by Elijah Lopez - firefox](https://addons.mozilla.org/en-US/firefox/addon/matte-black-v1/)
 - [Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix)
-- [Firefox-CSSHacks](https://github.com/MrOtherGuy/firefox-csshacks/)
-	- [navbar_tabs_responsive_oneliner.css](https://github.com/MrOtherGuy/firefox-csshacks/blob/master/chrome/navbar_tabs_responsive_oneliner.css)
-	> have bugs, fullscreen, and wayland session (or ar least in hyprland)
 
 About my visual themes... lest say my 'old' visual config was the black7375 proton-syle (a2a866c49af958d9a350ae403cd10a74a294629e) and the navbar tab oneline.
 I tried to recreate using the last update of black7375 and that CSS (same commit last update 2023-05-13 8aab757) but this time using photon style and adding some pref i found in the wiki to look like that CSS.
