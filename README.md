@@ -124,8 +124,6 @@ user_pref("userChrome.padding.urlView_expanding", true);
 ## user.js
 - [ ] check SHUTDOWN & SANITIZING, clear cookies, data and other after shutdown (check white list)
 - [ ] set browser.urlbar.suggest in private windows
-- [ ] set disable all password manager from firefox mozilla
-	- `Show alerts about passwords for breached websites` is set true disable that
 - [ ] set master passwd for firefox (check this later)
 - [ ] check OCSP certificates (maybe this is not really useful? idk i just copy and paste from narsil)
 - [ ] Doh (idk, learn about this, also check dns settins)
@@ -136,13 +134,3 @@ user_pref("userChrome.padding.urlView_expanding", true);
 - [ ] find a way to install addons from this repo, copy the files, start ff and boom! all the addons are installed and updated!
 - [ ] disable firefox view
 - [ ] set customize toolbar... setting at my taste
-
-## Themes
-- [ ] Improve UI
-	- bg tab in black (make this 'floating')
-	- active in gray
-	- hover in light gray
-	- tab maybe add some other color to différance from the background
-	- move urlnav bar to the left
-
-
