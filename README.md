@@ -51,22 +51,16 @@ I don't use a lot of addons only the necessary
 - [Matte Black by Elijah Lopez - firefox](https://addons.mozilla.org/en-US/firefox/addon/matte-black-v1/)
 - [Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix)
 
-About my visual themes... lest say my 'old' visual config was the black7375 proton-syle (a2a866c49af958d9a350ae403cd10a74a294629e) and the navbar tab oneline.
-I tried to recreate using the last update of black7375 and that CSS (same commit last update 2023-05-13 8aab757) but this time using photon style and adding some pref i found in the wiki to look like that CSS.
-Well the visual are different, dint tried the navbar oneliner, only the preff.
+About my visual themes...
+Well i updated to the last update and i made minor changes, the firts build i was using a oneliner.css that dosent work well on wayland (urlbar on left, tabs on right), the second build now in wayland i was using the options from black7375 (urlbar on righ, tabs on left) which is not very confortable but my memory muscle get it (yeah i know that i can chagen that in that time but i was really dumb <still very today 草>), now in this 3th build i disable the oneliner option because with a few tabs my mind block itseft if i dont see a lot of tabs all on the screan (that and my small screen and res 14"@1080p) make me feel not confortable (yeah i know im gay).
+
 I leave two img
 
-![1-time.png](1-time.png)
+![2.2-time.png](2.2-time.png)
 
 ---
 
-![2-time.png](2-time.png)
-
-Mph yup, and i don't know how to make the new one look a like the old, the tabs are difficult to see, and the urlbar is on the right...
-So by the moment i leave like that.
-I leave the files in this repo for you, maybe you are a genius and can help me!!
-> After almost a month I got used to this layout, it is not as annoying as before, but it would be good to know how to modify all this
-
+![3-time.png](3-time.png)
 
 ## Firefox UI Fix little install guide
 
@@ -83,7 +77,6 @@ git clone https://github.com/black7375/Firefox-UI-Fix chrome -b photon-style
 # Lepton's proton style
 git clone https://github.com/black7375/Firefox-UI-Fix chrome -b proton-style
 ```
-
 
 I made some change in that user.js (photon style, the new one not the old)
 
@@ -121,14 +114,12 @@ user_pref("userChrome.padding.urlView_expanding", true);
 
 ## user.js
 - [ ] check SHUTDOWN & SANITIZING, clear cookies, data and other after shutdown (check white list)
-- [ ] set browser.urlbar.suggest in private windows
 - [ ] set master passwd for firefox (check this later)
 - [ ] check OCSP certificates (maybe this is not really useful? idk i just copy and paste from narsil)
-- [ ] Doh (idk, learn about this, also check dns settins)
+- [ ] DoH (idk, learn about this, also check dns settins)
 - [ ] set canvas true (a lot of sites have mismatched local zone or have some weird behavior (the timezone, i don't really care)
 - [ ] set autoplay on youtube.com (just a minor thing)
 - [ ] better docs of all this
 - [ ] better readability and organize the .js better
 - [ ] find a way to install addons from this repo, copy the files, start ff and boom! all the addons are installed and updated!
-- [ ] disable firefox view
 - [ ] set customize toolbar... setting at my taste
