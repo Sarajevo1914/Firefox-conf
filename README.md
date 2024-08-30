@@ -56,11 +56,11 @@ I tried to recreate using the last update of black7375 and that CSS (same commit
 Well the visual are different, dint tried the navbar oneliner, only the preff.
 I leave two img
 
-![old.png](old.png)
+![1-time.png](1-time.png)
 
 ---
 
-![new.png](new.png)
+![2-time.png](2-time.png)
 
 Mph yup, and i don't know how to make the new one look a like the old, the tabs are difficult to see, and the urlbar is on the right...
 So by the moment i leave like that.
