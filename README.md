@@ -89,10 +89,10 @@ git clone https://github.com/black7375/Firefox-UI-Fix chrome -b proton-style
 
 I made some change in that user.js (photon style, the new one not the old)
 
-```css
+```js
 // https://github.com/black7375/Firefox-UI-Fix/wiki/Options#one-liner
 
-user_pref("userChrome.tabbar.one_liner", true);
+user_pref("userChrome.tabbar.one_liner", false);
 user_pref("userChrome.tabbar.one_liner.combine_navbar", true);
 user_pref("userChrome.tabbar.one_liner.tabbar_first", true);
 user_pref("userChrome.tabbar.one_liner.responsive", true);
@@ -105,7 +105,18 @@ user_pref("userChrome.icon.context_menu", false);
 user_pref("userChrome.icon.global_menu", false);
 user_pref("userChrome.icon.global_menubar", false);
 
-// what the fuck is userChrome.icon.menu ???
+// https://github.com/black7375/Firefox-UI-Fix/wiki/Options#decoration
+
+user_pref("userChrome.decoration.animate", false);
+user_pref("userChrome.decoration.disable_panel_animate", true);
+user_pref("userChrome.decoration.disable_sidebar_animate", true);
+
+// https://github.com/black7375/Firefox-UI-Fix/wiki/Options#padding
+
+user_pref("userChrome.padding.menu_compact", true);
+user_pref("userChrome.padding.bookmark_menu.compact", true);
+user_pref("userChrome.padding.panel_header", true);
+user_pref("userChrome.padding.urlView_expanding", true);
 ```
 
 # todo
