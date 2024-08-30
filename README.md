@@ -44,6 +44,7 @@ I don't use a lot of addons only the necessary
 	- [Violentmonkey git](https://github.com/violentmonkey/violentmonkey)
 	- [4chan-xt](https://github.com/TuxedoTako/4chan-xt)
 	- [OneeChan](https://github.com/KevinParnell/OneeChan)
+	- [bypass-all-shortlinks-debloated](https://codeberg.org/Amm0ni4/bypass-all-shortlinks-debloated/)
 
 ### Themes
 
