@@ -4,36 +4,27 @@ This is my personal conf for firefox
 
 ## user.js
 > this is very WIP made by a idiot, read files before using
-> read [Disable FF Telemetry](https://github.com/K3V1991/Disable-Firefox-Telemetry-and-Data-Collection) maybe is useful
 
-I used to use a custom made by me (a very crappy that cost me a lot of free time) using [narsil](https://codeberg.org/Narsil/user.js/) and [fastfox from betterfox](https://github.com/yokoffing/BetterFox) but now i using the complete user.js from Betterfox because i dont want to deale with mantaing something i dont undestand
-
-Maybe i should combine both narsil and Betterfox... nah for another day
+I use `user.js` from [Betterfox](https://github.com/yokoffing/BetterFox) with some overrides.
 
 ## Addons
 
 I don't use a lot of addons only the necessary
 
-- [ublock origin - firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-- [bitwarden - firefox](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
-- [dark reader - firefox](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
-- [Offline QR Code Generator - firefox](https://addons.mozilla.org/es/firefox/addon/offline-qr-code-generator/)
-	- check src, or just use some luke smith cli to this
-- [User-Agent Switcher by Erin Schlarb](https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/)
-	- [gitlab](https://gitlab.com/ntninja/user-agent-switcher)
-- [User-Agent Switcher and Manager by Ray - FF addons store Recommend](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)
-	- [github](https://github.com/ray-lothian/UserAgent-Switcher/)
-> i use the made by erin, idk what is the difference or what is better (for yt because google is shit!)
+- [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+- [bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
+- [dark reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
+- [YouTube No Translation](https://addons.mozilla.org/en-US/firefox/addon/youtube-no-translation/)
 
 ### Others
 
 - [Facebook container - firefox](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
 - [Firefox Multi-Account Containers - firefox](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 - [Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
-	- [Violentmonkey git](https://github.com/violentmonkey/violentmonkey)
-	- [4chan-xt](https://github.com/TuxedoTako/4chan-xt)
-	- [OneeChan](https://github.com/KevinParnell/OneeChan)
-	- [bypass-all-shortlinks-debloated](https://codeberg.org/Amm0ni4/bypass-all-shortlinks-debloated/)
+ - [Violentmonkey git](https://github.com/violentmonkey/violentmonkey)
+ - [4chan-xt](https://github.com/TuxedoTako/4chan-xt)
+ - [OneeChan](https://github.com/KevinParnell/OneeChan)
+ - [bypass-all-shortlinks-debloated](https://codeberg.org/Amm0ni4/bypass-all-shortlinks-debloated/)
 
 ### Themes
 
@@ -99,7 +90,7 @@ user_pref("userChrome.padding.urlView_expanding", true);
 // https://github.com/black7375/Firefox-UI-Fix/wiki/Options#media-player
 user_pref("userContent.player.ui.twoline", true);
 
-// Fixing Megabar 
+// Fixing Megabar
 // https://github.com/black7375/Firefox-UI-Fix/issues/1038
 // replace in chrome/css/leptonChrome.css
 
@@ -128,7 +119,7 @@ user_pref("userContent.player.ui.twoline", true);
 - [ ] set canvas true (some site breaks, have weird behavior, timezone, etc.)
 - [ ] set autoplay on youtube
 - [ ] find a way to install addons from this repo, copy the files, start ff and boom! all the addons are installed and updated!
-	- find a way to auto bk addons conf, ublock, darkreader, Violentmonkey scripts, etc.
+ - find a way to auto bk addons conf, ublock, darkreader, Violentmonkey scripts, etc.
 
 ## Cuztomize toolbar
 - [ ] del spacers left and right of urlbar
