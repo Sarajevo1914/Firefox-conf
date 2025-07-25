@@ -12,6 +12,8 @@ user_pref("browser.newtabpage.enabled", false); // Disable new tab page with con
 // Home page settings
 user_pref("browser.newtabpage.activity-stream.showSearch", false); // Disable web search on home page
 user_pref("browser.newtabpage.activity-stream.feeds.weather", false); // Disable weather on home page
+user_pref("browser.newtabpage.activity-stream.feeds.topsites", false); // Disable top sites (shortcuts)
+user_pref("browser.newtabpage.activity-stream.showTopSites", false); // Hide top sites section
 
 /*******************************************************************************
  * SECTION: USER INTERFACE & EXPERIENCE                                       *
@@ -40,9 +42,6 @@ user_pref("browser.tabs.loadInBackground", true); // Keep focus on current tab w
 // Fullscreen behavior
 user_pref("full-screen-api.warning.delay", 0); // No delay for fullscreen warning
 user_pref("full-screen-api.warning.timeout", 0); // No duration for fullscreen warning
-
-// Toolbar customization
-user_pref("browser.uiCustomization.state", '{"placements":{"widget-overflow-fixed-list":[],"unified-extensions-area":["ublock0_raymondhill_net-browser-action","_446900e4-71c2-419f-a6a7-df9c091e268b_-browser-action","addon_darkreader_org-browser-action"],"nav-bar":["back-button","forward-button","stop-reload-button","customizableui-special-spring1","urlbar-container","customizableui-special-spring2","downloads-button","unified-extensions-button"],"toolbar-menubar":["menubar-items"],"TabsToolbar":["tabbrowser-tabs","new-tab-button","alltabs-button"],"PersonalToolbar":["import-button","personal-bookmarks"]},"seen":["save-to-pocket-button","developer-button","ublock0_raymondhill_net-browser-action","_446900e4-71c2-419f-a6a7-df9c091e268b_-browser-action","addon_darkreader_org-browser-action"],"dirtyAreaCache":["nav-bar","PersonalToolbar","toolbar-menubar","TabsToolbar","unified-extensions-area"],"currentVersion":20,"newElementCount":4}'); // Custom toolbar layout
 
 /*******************************************************************************
  * SECTION: DOWNLOADS & FILE HANDLING                                         *
@@ -81,7 +80,7 @@ user_pref("browser.search.defaultenginename.US", "DuckDuckGo"); // Default for U
 user_pref("browser.search.order.1", "DuckDuckGo"); // First search engine in list
 
 // Private browsing search engine
-user_pref("browser.search.separatePrivateDefault", false); // Use same engine in private mode
+user_pref("browser.search.separatePrivateDefault", true); // Use same engine in private mode
 user_pref("browser.search.privateBrowsingSelectedEngine", "DuckDuckGo"); // Private browsing search engine
 
 // Remove other search engines (optional - uncomment if desired)
@@ -110,6 +109,7 @@ user_pref("browser.urlbar.suggest.searches", false); // DON'T send keystrokes to
 user_pref("browser.search.suggest.enabled", true); // Enable general search suggestions
 user_pref("browser.search.suggest.enabled.private", true); // Enable suggestions in private mode
 user_pref("browser.search.separatePrivateDefault", true); // Use same search engine in normal and private windows
+user_pref("browser.search.separatePrivateDefault.ui.enabled", false); // Hide the private search engine UI option
 user_pref("browser.urlbar.showSearchTerms.enabled", true); // Show recent search terms
 
 // History
@@ -140,13 +140,13 @@ user_pref("privacy.userContext.enabled", true); // Enable container tabs
 user_pref("privacy.userContext.ui.enabled", true); // Show container interface
 
 // Optional: Clear data on shutdown (uncomment if desired)
-// user_pref("privacy.sanitize.sanitizeOnShutdown", true); // Clear data when closing Firefox
-// user_pref("privacy.clearOnShutdown.cache", true); // Clear cache on shutdown
-// user_pref("privacy.clearOnShutdown.cookies", false); // Keep cookies (login sessions)
-// user_pref("privacy.clearOnShutdown.downloads", false); // Don't clear download history
-// user_pref("privacy.clearOnShutdown.formdata", true); // Clear form data
-// user_pref("privacy.clearOnShutdown.history", false); // Don't clear browsing history
-// user_pref("privacy.clearOnShutdown.sessions", false); // Don't clear saved sessions
+user_pref("privacy.sanitize.sanitizeOnShutdown", true); // Clear data when closing Firefox
+user_pref("privacy.clearOnShutdown.cache", true); // Clear cache on shutdown
+user_pref("privacy.clearOnShutdown.cookies", false); // Keep cookies (login sessions) if false
+user_pref("privacy.clearOnShutdown.downloads", false); // Don't clear download history
+user_pref("privacy.clearOnShutdown.formdata", true); // Clear form data
+user_pref("privacy.clearOnShutdown.history", false); // Don't clear browsing history
+user_pref("privacy.clearOnShutdown.sessions", false); // Don't clear saved sessions
 
 /*******************************************************************************
  * SECTION: PASSWORDS & FORMS                                                 *
