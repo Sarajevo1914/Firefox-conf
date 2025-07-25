@@ -15,13 +15,7 @@ I don't use a lot of addons only the necessary
 - [bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
 - [dark reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 - [YouTube No Translation](https://addons.mozilla.org/en-US/firefox/addon/youtube-no-translation/)
-
-### Others
-
-- [Facebook container - firefox](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
-- [Firefox Multi-Account Containers - firefox](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 - [Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
- - [Violentmonkey git](https://github.com/violentmonkey/violentmonkey)
  - [4chan-xt](https://github.com/TuxedoTako/4chan-xt)
  - [OneeChan](https://github.com/KevinParnell/OneeChan)
  - [bypass-all-shortlinks-debloated](https://codeberg.org/Amm0ni4/bypass-all-shortlinks-debloated/)
@@ -111,20 +105,13 @@ user_pref("userContent.player.ui.twoline", true);
 
 # TODO
 
-## user.js
-- [ ] del cookies, make white list (keep private no save in this repo)
-- [ ] master pass
-- [ ] check OCSP certificates
-- [ ] DoH / DNS
-- [ ] set canvas true (some site breaks, have weird behavior, timezone, etc.)
-- [ ] set autoplay on youtube
-- [ ] find a way to install addons from this repo, copy the files, start ff and boom! all the addons are installed and updated!
- - find a way to auto bk addons conf, ublock, darkreader, Violentmonkey scripts, etc.
+- [ ] del cookies and use white list
+- [ ] `policies.json` ? auto install addons
 
 ## Cuztomize toolbar
-- [ ] del spacers left and right of urlbar
-- [ ] del import bookmarks
-- [ ] pin addons in order, Bitwarden, DarkReader, ublock Origin
-- [ ] del list all tabs
-- [ ] del firefox view
-- [ ] del new tab
+- [ ] auto set `browser.uiCustomization.state`
+ - [ ] del spacers left and right of urlbar
+ - [ ] del import bookmarks label
+ - [ ] del list all tabs
+ - [ ] del firefox view
+ - [ ] del new tab
