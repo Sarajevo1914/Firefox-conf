@@ -30,9 +30,6 @@ user_pref("browser.ctrlTab.sortByRecentlyUsed", false); // Tab switching by orde
 user_pref("sidebar.revamp", false); // Disable new sidebar redesign
 user_pref("sidebar.verticalTabs", false); // Disable vertical tabs in sidebar
 
-// Theme settings
-user_pref("extensions.activeThemeID", "default-theme@mozilla.org"); // Use system theme (auto dark/light)
-
 // Tab behavior
 user_pref("browser.tabs.warnOnClose", false); // Don't warn when closing multiple tabs
 user_pref("browser.tabs.warnOnCloseOtherTabs", false); // Don't warn when closing other tabs
