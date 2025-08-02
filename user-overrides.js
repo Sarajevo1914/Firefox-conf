@@ -137,6 +137,7 @@ user_pref("privacy.userContext.enabled", true); // Enable container tabs
 user_pref("privacy.userContext.ui.enabled", true); // Show container interface
 
 // Optional: Clear data on shutdown (uncomment if desired)
+// Delete all cookies exceptions whitelist
 user_pref("privacy.sanitize.sanitizeOnShutdown", true); // Clear data when closing Firefox
 user_pref("privacy.clearOnShutdown.cache", true); // Clear cache on shutdown
 user_pref("privacy.clearOnShutdown.cookies", false); // Keep cookies (login sessions) if false
@@ -144,6 +145,7 @@ user_pref("privacy.clearOnShutdown.downloads", false); // Don't clear download h
 user_pref("privacy.clearOnShutdown.formdata", true); // Clear form data
 user_pref("privacy.clearOnShutdown.history", false); // Don't clear browsing history
 user_pref("privacy.clearOnShutdown.sessions", false); // Don't clear saved sessions
+user_pref("network.cookie.lifetimePolicy", 3); // Only allow First Party
 
 /*******************************************************************************
  * SECTION: PASSWORDS & FORMS                                                 *
