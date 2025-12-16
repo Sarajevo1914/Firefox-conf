@@ -1,3 +1,7 @@
+/*******************************************************************************
+ * UI FIX OVERRIDES                                                           *
+ *******************************************************************************/
+
 // https://github.com/black7375/Firefox-UI-Fix/wiki/Options#one-liner
 user_pref("userChrome.tabbar.one_liner", false);
 user_pref("userChrome.tabbar.one_liner.combine_navbar", true);
@@ -24,3 +28,7 @@ user_pref("userChrome.padding.urlView_expanding", true);
 
 // https://github.com/black7375/Firefox-UI-Fix/wiki/Options#media-player
 user_pref("userContent.player.ui.twoline", true);
+
+/*******************************************************************************
+ * END OF UI FIX OVERRIDES                                                    *
+ *******************************************************************************/
