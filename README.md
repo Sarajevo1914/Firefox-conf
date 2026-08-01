@@ -9,10 +9,11 @@ I use `user.js` from [Betterfox](https://github.com/yokoffing/BetterFox) with so
 ## Addons
 I only use a few essential addons.
 
-- [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-- [bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
-- [dark reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
+- [Ublock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+- [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
+- [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 - [Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
+  - [bypass-all-shortlinks-debloated](https://codeberg.org/gongchandang49/bypass-all-shortlinks-debloated)
 
 ### Themes
 - [Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix) (Photon-style branch) with [custom overrides](ui-fix-overrides.js)
