@@ -72,6 +72,8 @@ user_pref("widget.gtk.overlay-scrollbars.enabled", false);                      
 
 /* URL Bar behavior */
 user_pref("browser.urlbar.trimHttps", false);                                                                    // Show full URLs with https://
+user_pref("browser.urlbar.trimURLs", false);                                                                     // Show full URL with www.
+user_pref("browser.urlbar.trimWww", false);                                                                      // Show full URL with www.
 user_pref("browser.urlbar.autoFill", true);                                                                      // Enable address bar autofill
 user_pref("browser.urlbar.autoFill.adaptiveHistory.enabled", true);                                              // Adaptive autofill based on history
 user_pref("browser.urlbar.autoFill.adaptiveHistory.minCharsThreshold", 0);                                       // Autofill from first character
@@ -120,7 +122,7 @@ user_pref("privacy.userContext.enabled", true);                                 
 user_pref("privacy.userContext.ui.enabled", true);                                                               // Show container interface
 
 /* Clear data on shutdown */
-user_pref("privacy.sanitize.sanitizeOnShutdown", true);                                                          // Clear data when closing Firefox
+user_pref("privacy.sanitize.sanitizeOnShutdown", false);                                                         // Useless feature
 user_pref("privacy.clearOnShutdown.cache", true);                                                                // Clear cache on shutdown
 user_pref("privacy.clearOnShutdown.cookies", false);                                                             // Keep cookies (login sessions)
 user_pref("privacy.clearOnShutdown.downloads", false);                                                           // Don't clear download history
@@ -133,11 +135,14 @@ user_pref("network.cookie.lifetimePolicy", 3);                                  
  * SECTION: PASSWORDS & FORMS                                                 *
  *******************************************************************************/
 
-user_pref("signon.rememberSignons", false);                                                                      // Disable built-in password manager
+user_pref("services.sync.engine.passwords", false);
 user_pref("signon.autofillForms", false);                                                                        // Don't autofill forms with credentials
+user_pref("signon.firefoxRelay.feature", "disabled");                                                            // Disable Firefox Relay
+user_pref("signon.formlessCapture.enabled", false);
 user_pref("signon.generation.enabled", false);                                                                   // Don't generate passwords automatically
 user_pref("signon.management.page.breach-alerts.enabled", false);                                                // Don't show breach alerts
-user_pref("signon.firefoxRelay.feature", "disabled");                                                            // Disable Firefox Relay
+user_pref("signon.privateBrowsingCapture.enabled", false);
+user_pref("signon.rememberSignons", false);                                                                      // Disable built-in password manager
 
 /*******************************************************************************
  * SECTION: MEDIA & DRM                                                       *
